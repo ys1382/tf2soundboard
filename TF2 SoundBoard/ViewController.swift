@@ -10,7 +10,6 @@ import UIKit
 import AVFoundation
 
 
-
 class ViewController: UIViewController {
     
     // Sound variables
@@ -41,6 +40,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Background Image (needs improving?)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "AppBackground.png")!)
         // Making sure my program is ready
         
         do {
