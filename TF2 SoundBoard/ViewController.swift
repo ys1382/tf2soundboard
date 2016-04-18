@@ -77,47 +77,49 @@ class ViewController: UIViewController {
     }
     
     // These are the button functions
+    // I switched the numbers so that "We Are In The Beam" is the bottom button.
+    // This change was purely because I didn't bother figuring out how to fix the
+    // size of a button.
+    
     
     @IBAction func playSound1(sender: AnyObject) {
-        audioPlayer1!.play()
+        audioPlayer2!.play()
     }
 
     @IBAction func playSound2(sender: AnyObject) {
-        audioPlayer2!.play()
-    }
-    
-    @IBAction func playSound3(sender: AnyObject) {
         audioPlayer3!.play()
     }
     
-    @IBAction func playSound4(sender: AnyObject) {
+    @IBAction func playSound3(sender: AnyObject) {
         audioPlayer4!.play()
     }
     
-    @IBAction func playSound5(sender: AnyObject) {
+    @IBAction func playSound4(sender: AnyObject) {
         audioPlayer5!.play()
+    }
+    
+    @IBAction func playSound5(sender: AnyObject) {
+        audioPLayer6!.play()
     }
 
     @IBAction func playSound6(sender: AnyObject) {
-        audioPLayer6!.play()
-    }
-    
-    @IBAction func playSound7(sender: AnyObject) {
         audioPlayer7!.play()
     }
     
-    @IBAction func playSound8(sender: AnyObject) {
+    @IBAction func playSound7(sender: AnyObject) {
         audioPlayer8!.play()
     }
     
-    @IBAction func playSound9(sender: AnyObject) {
+    @IBAction func playSound8(sender: AnyObject) {
         audioPlayer9!.play()
     }
     
-    @IBAction func playSound10(sender: AnyObject) {
+    @IBAction func playSound9(sender: AnyObject) {
         audioPlayer10!.play()
     }
     
+    @IBAction func playSound10(sender: AnyObject) {
+        audioPlayer1!.play()
+    }
+    
 }
-
-

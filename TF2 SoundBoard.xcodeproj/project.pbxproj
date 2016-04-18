@@ -22,7 +22,7 @@
 		0EE0C5E51C04E48200A9EDEF /* IRA.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE0C5E41C04E48200A9EDEF /* IRA.wav */; };
 		0EE0C5E71C04E52E00A9EDEF /* NW.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE0C5E61C04E52E00A9EDEF /* NW.wav */; };
 		0EE0C5EB1C04EED300A9EDEF /* M.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE0C5EA1C04EED300A9EDEF /* M.wav */; };
-		4FCB3F0B1C0BC64B00ABDA96 /* WAITBImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FCB3F0A1C0BC64B00ABDA96 /* WAITBImage.jpg */; };
+		4F1D20061C3DECC800C95064 /* bottinplz.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D20051C3DECC800C95064 /* bottinplz.png */; };
 		4FDFB64B1C0790C7000F5AF7 /* AppBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFB64A1C0790C7000F5AF7 /* AppBackground.png */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,7 @@
 		0EE0C5E41C04E48200A9EDEF /* IRA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IRA.wav; sourceTree = "<group>"; };
 		0EE0C5E61C04E52E00A9EDEF /* NW.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NW.wav; sourceTree = "<group>"; };
 		0EE0C5EA1C04EED300A9EDEF /* M.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = M.wav; sourceTree = "<group>"; };
-		4FCB3F0A1C0BC64B00ABDA96 /* WAITBImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WAITBImage.jpg; sourceTree = "<group>"; };
+		4F1D20051C3DECC800C95064 /* bottinplz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottinplz.png; sourceTree = "<group>"; };
 		4FDFB64A1C0790C7000F5AF7 /* AppBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0E969A3D1C04364700DE720C /* WAITB.mp3 */,
+				4F1D20051C3DECC800C95064 /* bottinplz.png */,
 				0E969A3F1C0438FF00DE720C /* UP.wav */,
 				0E969A411C043B1500DE720C /* AH.wav */,
 				0E969A431C043C7000DE720C /* MMM.wav */,
@@ -88,7 +89,6 @@
 				0EE0C5E41C04E48200A9EDEF /* IRA.wav */,
 				0EE0C5E61C04E52E00A9EDEF /* NW.wav */,
 				0EE0C5EA1C04EED300A9EDEF /* M.wav */,
-				4FCB3F0A1C0BC64B00ABDA96 /* WAITBImage.jpg */,
 				4FDFB64A1C0790C7000F5AF7 /* AppBackground.png */,
 				0E6BE5031BE5E21F0072CC00 /* AppDelegate.swift */,
 				0E6BE5051BE5E21F0072CC00 /* ViewController.swift */,
@@ -132,6 +132,7 @@
 				TargetAttributes = {
 					0E6BE4FF1BE5E21F0072CC00 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ZXLVK62E3U;
 					};
 				};
 			};
@@ -159,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E969A401C0438FF00DE720C /* UP.wav in Resources */,
-				4FCB3F0B1C0BC64B00ABDA96 /* WAITBImage.jpg in Resources */,
+				4F1D20061C3DECC800C95064 /* bottinplz.png in Resources */,
 				4FDFB64B1C0790C7000F5AF7 /* AppBackground.png in Resources */,
 				0E969A421C043B1500DE720C /* AH.wav in Resources */,
 				0E6BE50E1BE5E21F0072CC00 /* LaunchScreen.storyboard in Resources */,
@@ -295,10 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = "TF2 SoundBoard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.suleyman.TF2-SoundBoard";
+				PRODUCT_BUNDLE_IDENTIFIER = "TF2-SoundBoard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -306,10 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = "TF2 SoundBoard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.suleyman.TF2-SoundBoard";
+				PRODUCT_BUNDLE_IDENTIFIER = "TF2-SoundBoard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
